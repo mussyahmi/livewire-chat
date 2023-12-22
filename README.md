@@ -66,7 +66,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
 # or
-ssh-add ~/.ssh/id_rsa_personal.pub
+ssh-add ~/.ssh/id_rsa_personal
 ```
 7. Add the SSH key to your personal Github settings.
 8. Clone the project via SSH
