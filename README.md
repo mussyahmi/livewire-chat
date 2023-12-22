@@ -50,8 +50,14 @@ nvm install 20.10.0
 # Generate SSH key if you don't have any yet
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
+# or you want to specify name for this key to avoid replace your current key
+ssh-keygen -t rsa -b 4096 -C "mustafa@cpglobalinnovation.com" -f ~/.ssh/id_rsa_personal
+
 # View and copy the key
 cat ~/.ssh/id_rsa.pub
+
+# or
+cat ~/.ssh/id_rsa_personal.pub
 ```
 7. Add the SSH key to your personal Github settings.
 8. Clone the project via SSH
