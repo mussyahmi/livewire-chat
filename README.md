@@ -112,5 +112,5 @@ php artisan migrate:fresh --seed
 - NPM v10.2.3
 - PHP v8.3.0 via
 - Composer v2.6.5
-- Laravel 10
-- Laravel installer 5.1.2
+- Laravel v10
+- Laravel installer v5.1.2
