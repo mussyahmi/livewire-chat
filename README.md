@@ -16,6 +16,7 @@ The TALL stack consists of these awesome technologies:
   # Command to add to PATH
   (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/mussyahmi/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 2. Install [Mysql 5.7](https://gist.github.com/wpconsulate/40469bfdafad9fdd0afc3e260a5586a7)
 ```bash
 # Command to install
@@ -31,7 +32,7 @@ brew tap homebrew/services
 
 # Load and start the MySQL service
 brew services start mysql@5.7
-
+```
 3. Install Sequel Pro
 4. Install [NVM](https://github.com/nvm-sh/nvm)
 ```bash
@@ -40,6 +41,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 
 # Close and open new Terminal to use nvm
 nvm install 20.10.0
+```
 5. Install PHP and Composer via [Laravel Herd](https://herd.laravel.com/)
 6. Get SSH key
 ```bash
@@ -48,6 +50,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # View and copy the key
 cat ~/.ssh/id_rsa.pub
+```
 7. Add the SSH key to your personal Github settings.
 8. Clone the project via SSH
 
