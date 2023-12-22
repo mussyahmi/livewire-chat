@@ -101,7 +101,7 @@ npm run dev
 # Terminal 3
 php artisan queue:work
 
-# Seed database
+# Terminal 4: Seed database
 php artisan migrate:fresh --seed
 ```
 
