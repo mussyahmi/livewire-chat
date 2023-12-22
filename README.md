@@ -47,7 +47,7 @@ nvm install 20.10.0
 5. Install PHP and Composer via [Laravel Herd](https://herd.laravel.com/)
 6. Get SSH key
 ```bash
-# Generate SSH key
+# Generate SSH key if you don't have any yet
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # View and copy the key
