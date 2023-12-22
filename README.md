@@ -97,6 +97,7 @@ npm run dev
 
 # Terminal 3
 php artisan queue:work
+```
 
 ## Versions Used
 - Homebrew v4.1.22
