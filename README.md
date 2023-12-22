@@ -85,6 +85,9 @@ PUSHER_APP_CLUSTER=
 composer install
 
 npm install
+
+# Generate your application encryption key
+php artisan key:generate
 ```
 
 ## How to run?
