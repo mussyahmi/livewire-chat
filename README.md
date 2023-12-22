@@ -58,10 +58,22 @@ cat ~/.ssh/id_rsa.pub
 
 # or
 cat ~/.ssh/id_rsa_personal.pub
+
+# Check if SSH agent is running
+eval "$(ssh-agent -s)"
+
+# Add your SSH key to the agent
+ssh-add ~/.ssh/id_rsa
+
+# or
+ssh-add ~/.ssh/id_rsa_personal.pub
 ```
 7. Add the SSH key to your personal Github settings.
 8. Clone the project via SSH
-9. Setup .env file for following details, you need to have [Pusher](https://pusher.com/) account and create new Channel
+```bash
+git clone git@github.com:mussyahmi/livewire-chat.git
+```
+10. Setup .env file for following details, you need to have [Pusher](https://pusher.com/) account and create new Channel
 ```bash
 PUSHER_APP_ID=
 PUSHER_APP_KEY=
