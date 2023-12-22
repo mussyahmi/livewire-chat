@@ -1,10 +1,10 @@
 ## Realtime chat using TALL Stack
 
 The TALL stack consists of these awesome technologies:
-- [Tailwind CSS] (https://tailwindcss.com/)
-- [AlphineJS] (https://alpinejs.dev/)
-- [Laravel] (https://laravel.com/)
-- [Livewire] (https://laravel-livewire.com/)
+- - [Tailwind CSS] (https://tailwindcss.com/)
+- - [AlphineJS] (https://alpinejs.dev/)
+- - [Laravel] (https://laravel.com/)
+- - [Livewire] (https://laravel-livewire.com/)
 
 ## How to install?
 
